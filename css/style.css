@@ -1,0 +1,437 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: rgba(211, 211, 211, 0.52)
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 5px 0;
+}
+
+.header {
+    overflow: hidden;
+}
+
+.logo {
+    width: 10%;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+}
+
+nav {
+    width: 90%;
+    float: left;
+    text-decoration: none;
+}
+
+
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #47535c;
+    text-transform: uppercase;
+    padding: 10px;
+    display: block;
+    font-weight: 700;
+}
+nav ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 20, 147);
+    transform: scale(1.2);
+    display: block;
+    transition: all 0.4s ease;
+}
+
+button {
+    color: deeppink;
+    border-radius: 4em;
+    background-color: white;
+    font-weight: 700;
+    border: 2px solid deeppink;
+    margin-right: 7px;
+    text-transform: uppercase;
+    padding: 8px 8px;
+}
+
+button:hover{
+    color: white;
+    border-radius: 4em;
+    background-color: deeppink;
+    font-weight: 700;
+    border: 2px solid deeppink;
+    transition: all 0.4s ease;
+    transform: scale(1.1);
+}
+
+.heading {
+    background: whitesmoke;
+}
+
+.heading h1 {
+    text-align: center;
+    padding-top: 1em;
+    font-family: fantasy;
+}
+
+.heading p {
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    padding-left: 14em;
+    color: dimgrey;
+    font-family: fantasy;
+}
+
+.banner {}
+
+.banner img {}
+
+.message {}
+
+.message p {
+    padding-left: 16em;
+    color: grey;
+}
+
+.content-one {
+    overflow: hidden;
+    padding-top: 2em;
+}
+
+.info1 {
+    width: 49%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 5em;
+}
+
+.info1 h1 {
+    text-align: right;
+    font-size: 28px;
+    color: dimgrey;
+}
+
+.info1 p {
+    text-align: right;
+    color: darkgrey;
+}
+
+.embed1 iframe {
+    box-sizing: border-box;
+    padding-left: 3em;
+}
+
+.content-two {
+    overflow: hidden;
+    padding-top: 2em;
+}
+
+.info2 {
+    width: 49%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 5em;
+}
+
+.info2 h1 {
+    text-align: right;
+    font-size: 28px;
+    color: dimgrey;
+}
+
+.info2 p {
+    text-align: right;
+    color: darkgrey;
+}
+
+.embed2 iframe {
+    box-sizing: border-box;
+    padding-right: 3em;
+}
+
+.content-three {
+    overflow: hidden;
+    padding-top: 2em;
+}
+
+.info3 {
+    width: 49%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 5em;
+}
+
+.info3 h1 {
+    text-align: right;
+    font-size: 28px;
+    color: dimgrey;
+}
+
+.info3 p {
+    text-align: right;
+    color: darkgrey;
+}
+
+.embed3 iframe {
+    box-sizing: border-box;
+    padding-left: 3em;
+}
+
+.content-four {
+    padding-top: 2em;
+    overflow: hidden;
+}
+
+.info4 {
+    width: 49%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 5em;
+}
+
+.info4 h1 {
+    text-align: right;
+    font-size: 28px;
+    color: dimgrey;
+}
+
+.info4 p {
+    text-align: right;
+    color: darkgrey;
+}
+
+.embed4 iframe {
+    box-sizing: border-box;
+    padding-right: 3em;
+}
+
+.video{
+    padding-top: 3em;
+}
+.video iframe{
+min-width: 100%;
+
+}
+.feedback{
+
+padding-top: 6em;
+
+overflow: hidden;
+}
+
+.bill span{
+
+    padding-left: 17em;
+    font-weight: 800;
+}
+.bill{
+    width: 33.3%;
+    float: left;
+    box-sizing: border-box;
+    padding-right: 1em;
+        background: lightgrey;
+}
+.bill img{
+        width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+        margin-top: 1em;
+}
+.comment p{
+    text-align: justify;
+    color: rgb(55, 47, 48);;
+}
+.jobs{
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+    padding-right: 1em;
+        background: lightgrey;
+}
+
+.jobs span{
+        padding-left: 17em;
+    font-weight: 800;
+}
+.jobs img{
+        width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+        margin-top: 1em;
+}
+.aj{
+    float: left;
+    box-sizing: border-box;
+    width: 33.3%;
+    padding-right: 1em;
+    background: lightgrey;
+}
+.aj img{
+       width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin: 0 auto;
+        margin-top: 1em;
+}
+
+.aj span{
+        padding-left: 16em;
+    font-weight: 800;
+}
+
+.faq{
+
+    padding-top: 5em;
+    background: rgba(211, 211, 211, 0.34);
+}
+
+
+.faq .headline{
+    font-family: monospace;
+}
+.faq .headline h1{
+    text-align: center;
+    color: black;
+}
+.leftfaq{
+
+width: 47%;
+
+text-align: justify;
+float: right;
+padding-top: 1em;
+}
+
+.leftfaq ul{
+    margin: 0;
+    padding: 0;
+}
+.leftfaq ul em{
+        font-weight: 900;
+    font-family: sans-serif; 
+}
+.leftfaq li{
+    list-style: none;
+    color: darkslategray;
+}
+
+.rightfaq{
+
+width: 47%;
+
+text-align: justify;
+
+padding-top: 1em;
+}
+
+.rightfaq ul{
+    margin: 0;
+    padding: 0;
+}
+.rightfaq ul em{
+        font-weight: 900;
+    font-family: sans-serif;
+}
+.rightfaq li{
+    list-style: none;
+    color: darkslategray;
+}
+
+.banner2 img{
+        padding-top: 2em;
+}
+
+.about{
+    
+        padding-left: 19em;
+    padding-top: 4em;
+}
+.about ul{
+    margin: 0;
+    padding: 0;
+    
+}
+.about ul li{
+    list-style: none;
+    
+    float: left;
+    padding: 10px;
+}
+.about ul a{
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.about ul li a:hover{
+
+     color: white;
+    border-radius: 2em;
+    background-color: darkgrey;
+    font-weight: 500;
+    border: 2px solid darkgray;
+    transition: all 0.2s ease;
+}
+.footer{
+        padding-top: 3em;
+    text-align: center;
+}
+.footer p{
+    color: dimgrey;
+}
+
+.creation{
+        text-align: right;
+    padding-right: 5px;
+}
+.creation a{
+        text-decoration: none;
+    color: darkslategrey;
+    font-family: fantasy;
+}
+
+.vline1{
+            border-left: 2px solid grey;
+    height: 25px;
+    float: left;
+    margin-top: 6px;
+}
+
+.vline2{    border-left: 2px solid grey;
+    height: 25px;
+    float: left;
+    margin-top: 6px;
+}
+.vline3{    border-left: 2px solid grey;
+    height: 25px;
+    float: left;
+    margin-top: 6px;
+}
+.vline4{    border-left: 2px solid grey;
+    height: 25px;
+    float: left;
+    margin-top: 6px;
+}
